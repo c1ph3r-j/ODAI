@@ -115,7 +115,9 @@ public class MainActivity extends AppCompatActivity implements Consumer<String> 
                 }
 
                 String promptQuestion = userMsgEdt.getText().toString();
-                String promptQuestion_formatted = "<system>You are a helpful AI assistant. Answer in two paragraphs or less<|end|><|user|>"+promptQuestion+"<|end|>\n<assistant|>";
+//                String promptQuestion_formatted = "<system>You are a conversational AI designed for simplicity and clarity. Provide concise answers in plain language, focusing on the user's needs. Use informal yet respectful language, incorporating casual phrases and a friendly tone when appropriate.<|end|><|user|>" + promptQuestion + "<|end|>\n<assistant|>";
+//                String promptQuestion_formatted = "<system>You are a conversational AI designed to provide clear and straightforward answers. Respond in a friendly, casual tone, and avoid using any special formatting or tokens in your responses. Just provide the answer in plain language, focusing on simplicity and clarity.<|end|><|user|>" + promptQuestion + "<|end|>\n<assistant|>";
+                String promptQuestion_formatted = "<system>You are an AI assistant focused on providing concise and actionable instructions for deploying machine learning models on mobile devices using ONNX. Ensure your responses are straightforward and optimized for clarity. Avoid unnecessary technical jargon and provide step-by-step guidance that is easy to follow. Do not include any special tokens or formatting in your output.<|end|><|user|>" + promptQuestion + "<|end|>\n<assistant|>";
                 Log.i("GenAI: prompt question", promptQuestion_formatted);
                 setVisibility();
 
