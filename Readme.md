@@ -16,7 +16,7 @@ This sample project demonstrates how to run a Language Model (LLM) on an Android
 - Android SDK
 - Java 17
 - ONNX Runtime for Android
-- **Recommended**: A real device with more than 8GB of RAM for optimal performance. (my device: Samsung s20 fe 5G - snapdragon)
+- **Recommended**: A real device with more than 8GB of RAM for optimal performance.
 
 ### Installation
 
@@ -28,15 +28,12 @@ This sample project demonstrates how to run a Language Model (LLM) on an Android
 
 2. Open the project in Android Studio.
 
-3. Add the ONNX Runtime dependencies to your `build.gradle` file.
+3. Run the project on a real device with sufficient RAM.
 
-4. Load the LLaMA 3.2 1B model in your Java code using ONNX Runtime.
-
-5. Run the project on a real device with sufficient RAM.
-
-### Sample Screenshot
+### Sample Screenshot (Samsung S20 Fe 5G - snapdragon)
 
 ![Sample Screenshot](images/sample_image_1.png)
+
 ![Sample Screenshot](images/sample_image_2.png)
 
 ## Additional Resources
