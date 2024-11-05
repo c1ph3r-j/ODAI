@@ -2,6 +2,8 @@
 
 This sample project demonstrates how to run a Language Model (LLM) on an Android device using the ONNX Runtime with the LLaMA 3.2 1B model. The project showcases the capabilities of ONNX to perform efficient inference on mobile devices.
 
+give a star if you like it.
+
 ## Features
 
 - **ONNX Runtime**: Utilize ONNX for efficient model inference on Android.
